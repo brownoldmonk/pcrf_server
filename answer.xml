@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<package>
+    <CEA code="257">
+        <avp value="pcrf98.bytemobile.com" name="Origin-Host" />
+        <avp value="server.realm.com" name="Origin-Realm" /> 
+        <avp value="2001" name="Result-Code" /> 
+        <avp value="192.168.1.1" name="Host-IP-Address" />
+        <avp value="27611" name="Vendor-Id" /> 
+        <avp value="server" name="Product-Name" /> 
+        <avp value="8521" name="Supported-Vendor-Id" /> 
+        <avp value="0" name="Inband-Security-Id" /> 
+        <avp value="1" name="Firmware-Revision" />
+        <group_avp name="Vendor-Specific-Application-Id" >
+            <avp value="10415" name="Vendor-Id" /> 
+            <avp value="16777238" name="Auth-Application-Id" /> 
+        </group_avp>
+    </CEA>
+    <DWR code="280" >
+        <avp value="pcrf98.bytemobile.com" name="Origin-Host" />
+        <avp value="server.realm.com" name="Origin-Realm" />
+        <avp value="2001" name="Result-Code" />
+    </DWR>
+    <DWA code="280">
+        <avp value="pcrf98.bytemobile.com" name="Origin-Host" />
+        <avp value="server.realm.com" name="Origin-Realm" /> 
+        <avp value="2001" name="Result-Code" /> 
+    </DWA>
+    <DPA code="282">
+        <avp value="pcrf98.bytemobile.com" name="Origin-Host" />
+        <avp value="server.realm.com" name="Origin-Realm" /> 
+        <avp value="2001" name="Result-Code" />
+    </DPA>
+    <CCA-I code="272" delay="0">
+        <avp name="Origin-Host" value="pcrf98.bytemobile.com" />
+        <avp name="Origin-Realm" value="server.realm.com" /> 
+        <avp name="AN-GW-Address" value="eeee:1111:2222:3333::" />
+        <avp name="BMI-Redirect-URL" value="http://www.yahoo.com" />
+        <avp name="BMI-Operator-ID" value="1" />
+        <avp name="Host-IP-Address" value="10.1.1.1" />
+        <avp name="Called-Station-Id" value="PCRF_APN" />
+        <avp name="Calling-Station-Id" value="PCRF_MSISDN" />
+        <group_avp name="Subscription-Id">
+            <avp name="Subscription-Id-Type" value="64" />
+            <avp name="Subscription-Id-Data" value="222234567890" />
+        </group_avp>
+        <avp name="Proxy-Host" value="test.com" />
+        <group_avp name="Charging-Rule-Install">
+            <avp name="Charging-Rule-Base-Name" value="p1" />
+        </group_avp> 
+        <avp name="Result-Code" value="2001" />
+    </CCA-I>
+    <RAA code="258">
+		<avp name="Calling-Station-Id" value="PCRF_MSISDN" />
+        <avp name="Session-Release-Cause" value="12" />
+    </RAA>
+</package>

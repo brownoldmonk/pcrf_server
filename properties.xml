@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+
+<avpList>
+  <avp code="1"       type="UTF8String"      >User-Name                                </avp>
+  <avp code="2"       type="OctetString"     >User-Password                            </avp>
+  <avp code="4"       type="OctetString"     >NAS-IP-Address                           </avp>
+  <avp code="5"       type="Unsigned32"      >NAS-Port                                 </avp>
+  <avp code="6"       type="Enumerated"      >Service-Type                             </avp>
+  <avp code="7"       type="Enumerated"      >Framed-Protocol                          </avp>
+  <avp code="8"       type="OctetString"     >Framed-IP-Address                        </avp>
+  <avp code="9"       type="OctetString"     >Framed-IP-Netmask                        </avp>
+  <avp code="10"      type="Enumerated"      >Framed-Routing                           </avp>
+  <avp code="11"      type="UTF8String"      >Filter-Id                                </avp>
+  <avp code="12"      type="Unsigned32"      >Framed-MTU                               </avp>
+  <avp code="13"      type="Enumerated"      >Framed-Compression                       </avp>
+  <avp code="14"      type="OctetString"     >Login-IP-Host                            </avp>
+  <avp code="15"      type="Enumerated"      >Login-Service                            </avp>
+  <avp code="16"      type="Unsigned32"      >Login-TCP-Port                           </avp>
+  <avp code="18"      type="UTF8String"      >Reply-Message                            </avp>
+  <avp code="19"      type="UTF8String"      >Callback-Number                          </avp>
+  <avp code="20"      type="UTF8String"      >Callback-Id                              </avp>
+  <avp code="22"      type="UTF8String"      >Framed-Route                             </avp>
+  <avp code="23"      type="UTF8String"      >Framed-IPX-Network                       </avp>
+  <avp code="24"      type="OctetString"     >State                                    </avp>
+  <avp code="25"      type="OctetString"     >Class                                    </avp>
+  <avp code="27"      type="Unsigned32"      >Session-Timeout                          </avp>
+  <avp code="28"      type="Unsigned32"      >Idle-Timeout                             </avp>
+  <avp code="29"      type="Enumerated"      >Termination-Action                       </avp>
+  <avp code="30"      type="UTF8String"      >Called-Station-Id                        </avp>
+  <avp code="31"      type="UTF8String"      >Calling-Station-Id                       </avp>
+  <avp code="32"      type="UTF8String"      >NAS-Identifier                           </avp>
+  <avp code="33"      type="OctetString"     >Proxy-State                              </avp>
+  <avp code="34"      type="OctetString"     >Login-LAT-Service                        </avp>
+  <avp code="35"      type="OctetString"     >Login-LAT-Node                           </avp>
+  <avp code="36"      type="OctetString"     >Login-LAT-Group                          </avp>
+  <avp code="37"      type="Unsigned32"      >Framed-Appletalk-Link                    </avp>
+  <avp code="38"      type="Unsigned32"      >Framed-Appletalk-Network                 </avp>
+  <avp code="39"      type="OctetString"     >Framed-Appletalk-Zone                    </avp>
+  <avp code="41"      type="Unsigned32"      >Acct-Delay-Time                          </avp>
+  <avp code="44"      type="OctetString"     >Accounting-Session-Id                    </avp>
+  <avp code="45"      type="Enumerated"      >Acct-Authentic                           </avp>
+  <avp code="46"      type="Unsigned32"      >Acct-Session-Time                        </avp>
+  <avp code="50"      type="UTF8String"      >Acct-Multi-Session-Id                    </avp>
+  <avp code="51"      type="Unsigned32"      >Acct-Link-Count                          </avp>
+  <avp code="55"      type="Time"            >Event-Timestamp                          </avp>
+  <avp code="60"      type="OctetString"     >CHAP-Challenge                           </avp>
+  <avp code="61"      type="Enumerated"      >NAS-Port-Type                            </avp>
+  <avp code="62"      type="Unsigned32"      >Port-Limit                               </avp>
+  <avp code="63"      type="OctetString"     >Login-LAT-Port                           </avp>
+  <avp code="64"      type="Enumerated"      >Tunnel-Type                              </avp>
+  <avp code="65"      type="Enumerated"      >Tunnel-Medium-Type                       </avp>
+  <avp code="66"      type="UTF8String"      >Tunnel-Client-Endpoint                   </avp>
+  <avp code="67"      type="UTF8String"      >Tunnel-Server-Endpoint                   </avp>
+  <avp code="68"      type="OctetString"     >Acct-Tunnel-Connection                   </avp>
+  <avp code="69"      type="OctetString"     >Tunnel-Password                          </avp>
+  <avp code="70"      type="OctetString"     >ARAP-Password                            </avp>
+  <avp code="71"      type="OctetString"     >ARAP-Features                            </avp>
+  <avp code="72"      type="Enumerated"      >ARAP-Zone-Access                         </avp>
+  <avp code="73"      type="Unsigned32"      >ARAP-Security                            </avp>
+  <avp code="74"      type="OctetString"     >ARAP-Security-Data                       </avp>
+  <avp code="75"      type="Unsigned32"      >Password-Retry                           </avp>
+  <avp code="76"      type="Enumerated"      >Prompt                                   </avp>
+  <avp code="77"      type="UTF8String"      >Connect-Info                             </avp>
+  <avp code="78"      type="OctetString"     >Configuration-Token                      </avp>
+  <avp code="81"      type="UTF8String"      >Tunnel-Private-Group-Id                  </avp>
+  <avp code="82"      type="OctetString"     >Tunnel-Assignment-Id                     </avp>
+  <avp code="83"      type="Unsigned32"      >Tunnel-Preference                        </avp>
+  <avp code="84"      type="OctetString"     >ARAP-Challenge-Response                  </avp>
+  <avp code="86"      type="Unsigned32"      >Acct-Tunnel-Packets-Lost                 </avp>
+  <avp code="87"      type="UTF8String"      >NAS-Port-Id                              </avp>
+  <avp code="88"      type="OctetString"     >Framed-Pool                              </avp>
+  <avp code="90"      type="Unsigned32"      >Tunnel-Client-Auth-Id                    </avp>
+  <avp code="91"      type="OctetString"     >Tunnel-Server-Auth-Id                    </avp>
+  <avp code="94"      type="OctetString"     >Originating-Line-Info                    </avp>
+  <avp code="95"      type="OctetString"     >NAS-IPv6-Address                         </avp>
+  <avp code="96"      type="Unsigned64"      >Framed-Interface-Id                      </avp>
+  <avp code="97"      type="OctetString"     >Framed-IPv6-Prefix                       </avp>
+  <avp code="98"      type="OctetString"     >Login-IPv6-Host                          </avp>
+  <avp code="99"      type="UTF8String"      >Framed-IPv6-Route                        </avp>
+  <avp code="100"     type="OctetString"     >Framed-IPv6-Pool                         </avp>
+  <avp code="257"     type="Address"         >Host-IP-Address                          </avp>
+  <avp code="258"     type="Unsigned32"      >Auth-Application-Id                      </avp>
+  <avp code="259"     type="Unsigned32"      >Acct-Application-Id                      </avp>
+  <avp code="260"     type="Grouped"         >Vendor-Specific-Application-Id           </avp>
+  <avp code="261"     type="Unsigned32"      >Redirect-Host-Usage                      </avp>
+  <avp code="262"     type="Unsigned32"      >Redirect-Max-Cache-Time                  </avp>
+  <avp code="263"     type="UTF8String"      >Session-Id                               </avp>
+  <avp code="264"     type="DiameterIdentity">Origin-Host                              </avp>
+  <avp code="265"     type="Unsigned32"      >Supported-Vendor-Id                      </avp>
+  <avp code="266"     type="Unsigned32"      >Vendor-Id                                </avp>
+  <avp code="267"     type="Unsigned32"      >Firmware-Revision                        </avp>
+  <avp code="268"     type="Unsigned32"      >Result-Code                              </avp>
+  <avp code="269"     type="UTF8String"      >Product-Name                             </avp>
+  <avp code="270"     type="Unsigned32"      >Session-Binding                          </avp>
+  <avp code="271"     type="Unsigned32"      >Session-Server-Failover                  </avp>
+  <avp code="272"     type="Unsigned32"      >Multi-Round-Time-Out                     </avp>
+  <avp code="273"     type="Unsigned32"      >Disconnect-Cause                         </avp>
+  <avp code="274"     type="Unsigned32"      >Auth-Type                                </avp>
+  <avp code="275"     type="DiameterIdentity">Alternate-Peer                           </avp>
+  <avp code="276"     type="Unsigned32"      >Auth-Grace-Period                        </avp>
+  <avp code="277"     type="Enumerated"      >Auth-Session-State                       </avp>
+  <avp code="278"     type="Unsigned32"      >Origin-State-Id                          </avp>
+  <avp code="279"                            >Failed-AVP                               </avp>
+  <avp code="280"     type="DiameterIdentity">Proxy-Host                               </avp>
+  <avp code="281"     type="UTF8String"      >Error-Message                            </avp>
+  <avp code="282"     type="DiameterIdentity">Route-Record                             </avp>
+  <avp code="283"     type="DiameterIdentity">Destination-Realm                        </avp>
+  <avp code="284"                            >Proxy-Info                               </avp>
+  <avp code="285"     type="Enumerated"      >Re-Auth-Request-Type                     </avp>
+  <avp code="286"     type="DiameterIdentity">Source-Route                             </avp>
+  <avp code="287"     type="Unsigned64"      >Accounting-Sub-Session-Id                </avp>
+  <avp code="291"     type="Unsigned32"      >Authorization-Lifetime                   </avp>
+  <avp code="292"     type="DiameterURI"     >Redirect-Host                            </avp>
+  <avp code="293"     type="DiameterIdentity">Destination-Host                         </avp>
+  <avp code="294"     type="DiameterIdentity">Error-Reporting-Host                     </avp>
+  <avp code="295"     type="Unsigned32"      >Termination-Cause                        </avp>
+  <avp code="296"     type="DiameterIdentity">Origin-Realm                             </avp>
+  <avp code="297"                            >Experimental-Result                      </avp>
+  <avp code="298"     type="Unsigned32"      >Experimental-Result-Code                 </avp>
+  <avp code="299"     type="Enumerated"      >Inband-Security-Id                       </avp>
+  <avp code="318"     type="Unsigned32"      >MIP-FA-to-HA-SPI                         </avp>
+  <avp code="319"     type="Unsigned32"      >MIP-FA-to-MN-SPI                         </avp>
+  <avp code="320"     type="OctetString"     >MIP-Reg-Request                          </avp>
+  <avp code="321"     type="OctetString"     >MIP-Reg-Reply                            </avp>
+  <avp code="322"     type="Unsigned32"      >MIP-MN-AAA-SPI                           </avp>
+  <avp code="325"                            >MIP-MN-to-FA-Key                         </avp>
+  <avp code="326"                            >MIP-FA-to-MN-Key                         </avp>
+  <avp code="328"                            >MIP-FA-to-HA-Key                         </avp>
+  <avp code="329"                            >MIP-HA-to-FA-Key                         </avp>
+  <avp code="331"                            >MIP-MN-to-HA-Key                         </avp>
+  <avp code="332"                            >MIP-HA-to-MN-Key                         </avp>
+  <avp code="333"     type="Address"         >MIP-Mobile-Node-Address                  </avp>
+  <avp code="334"     type="Address"         >MIP-Home-Agent-Address                   </avp>
+  <avp code="335"     type="OctetString"     >MIP-Key-Material                         </avp>
+  <avp code="336"     type="DiameterIdentity">MIP-Candidate-Home-Agent-Host            </avp>
+  <avp code="337"     type="Unsigned32"      >MIP-Feature-Vector                       </avp>
+  <avp code="338"     type="Unsigned32"      >MIP-Auth-Input-Data-Length               </avp>
+  <avp code="339"     type="Unsigned32"      >MIP-Authenticator-Length                 </avp>
+  <avp code="340"     type="Unsigned32"      >MIP-Authenticator-Offset                 </avp>
+  <avp code="343"     type="OctetString"     >MIP-Session-Key                          </avp>
+  <avp code="344"     type="OctetString"     >MIP-FA-Challenge                         </avp>
+  <avp code="345"     type="Enumerated"      >MIP-Algorithm-Type                       </avp>
+  <avp code="346"     type="Enumerated"      >MIP-Replay-Mode                          </avp>
+  <avp code="347"                            >MIP-Originating-Foreign-AAA              </avp>
+  <avp code="348"     type="DiameterIdentity">MIP-Home-Agent-Host                      </avp>
+  <avp code="363"     type="Unsigned64"      >Accounting-Input-Octets                  </avp>
+  <avp code="364"     type="Unsigned64"      >Accounting-Output-Octets                 </avp>
+  <avp code="365"     type="Unsigned64"      >Accounting-Input-Packets                 </avp>
+  <avp code="366"     type="Unsigned64"      >Accounting-Output-Packets                </avp>
+  <avp code="367"     type="Unsigned32"      >MIP-Key-Lifetime                         </avp>
+  <avp code="400"     type="IPFilterRule"    >NAS-Filter-Rule                          </avp>
+  <avp code="401"                            >Tunneling                                </avp>
+  <avp code="402"                            >CHAP-Auth                                </avp>
+  <avp code="403"     type="Enumerated"      >CHAP-Algorithm                           </avp>
+  <avp code="404"     type="OctetString"     >CHAP-Ident                               </avp>
+  <avp code="405"     type="OctetString"     >CHAP-Response                            </avp>
+  <avp code="411"     type="OctetString"     >CC-Correlation-Id                        </avp>
+  <avp code="412"     type="Unsigned64"      >CC-Input-Octets                          </avp>
+  <avp code="413"                            >CC-Money                                 </avp>
+  <avp code="414"     type="Unsigned64"      >CC-Output-Octets                         </avp>
+  <avp code="415"     type="Unsigned32"      >CC-Request-Number                        </avp>
+  <avp code="416"     type="Unsigned32"      >CC-Request-Type                          </avp>
+  <avp code="417"     type="Unsigned64"      >CC-Service-Specific-Units                </avp>
+  <avp code="418"     type="Unsigned32"      >CC-Session-Failover                      </avp>
+  <avp code="419"     type="Unsigned64"      >CC-Sub-Session-Id                        </avp>
+  <avp code="420"     type="Unsigned32"      >CC-Time                                  </avp>
+  <avp code="421"     type="Unsigned64"      >CC-Total-Octets                          </avp>
+  <avp code="422"     type="Unsigned32"      >Check-Balance-Result                     </avp>
+  <avp code="423"                            >Cost-Information                         </avp>
+  <avp code="424"     type="UTF8String"      >Cost-Unit                                </avp>
+  <avp code="425"     type="Unsigned32"      >Currency-Code                            </avp>
+  <avp code="427"     type="Unsigned32"      >Credit-Control-Failure-Handling          </avp>
+  <avp code="428"     type="Unsigned32"      >Direct-Debiting-Failure-Handling         </avp>
+  <avp code="429"     type="Integer32"       >Exponent                                 </avp>
+  <avp code="430"                            >Final-Unit-Indication                    </avp>
+  <avp code="431"                            >Granted-Service-Unit                     </avp>
+  <avp code="432"     type="Unsigned32"      >Rating-Group                             </avp>
+  <avp code="433"     type="Unsigned32"      >Redirect-Address-Type                    </avp>
+  <avp code="434"                            >Redirect-Server                          </avp>
+  <avp code="435"     type="UTF8String"      >Redirect-Server-Address                  </avp>
+  <avp code="436"     type="Unsigned32"      >Requested-Action                         </avp>
+  <avp code="437"                            >Requested-Service-Unit                   </avp>
+  <avp code="438"     type="IPFilterRule"    >Restriction-Filter-Rule                  </avp>
+  <avp code="439"     type="Unsigned32"      >Service-Identifier                       </avp>
+  <avp code="440"                            >Service-Parameter-Info                   </avp>
+  <avp code="441"     type="Unsigned32"      >Service-Parameter-Type                   </avp>
+  <avp code="442"     type="OctetString"     >Service-Parameter-Value                  </avp>
+  <avp code="443"     type="Grouped"         >Subscription-Id                          </avp>
+  <avp code="444"     type="UTF8String"      >Subscription-Id-Data                     </avp>
+  <avp code="445"                            >Unit-Value                               </avp>
+  <avp code="446"                            >Used-Service-Unit                        </avp>
+  <avp code="447"     type="Integer64"       >Value-Digits                             </avp>
+  <avp code="448"     type="Unsigned32"      >Validity-Time                            </avp>
+  <avp code="449"     type="Unsigned32"      >Final-Unit-Action                        </avp>
+  <avp code="450"     type="Enumerated"      >Subscription-Id-Type                     </avp>
+  <avp code="451"     type="Time"            >Tariff-Time-Change                       </avp>
+  <avp code="452"     type="Unsigned32"      >Tariff-Change-Usage                      </avp>
+  <avp code="453"     type="Unsigned32"      >G-S-U-Pool-Identifier                    </avp>
+  <avp code="454"     type="Unsigned32"      >CC-Unit-Type                             </avp>
+  <avp code="455"     type="Unsigned32"      >Multiple-Services-Indicator              </avp>
+  <avp code="456"                            >Multiple-Services-Credit-Control         </avp>
+  <avp code="457"                            >G-S-U-Pool-Reference                     </avp>
+  <avp code="458"                            >User-Equipment-Info                      </avp>
+  <avp code="459"     type="Unsigned32"      >User-Equipment-Info-Type                 </avp>
+  <avp code="460"     type="OctetString"     >User-Equipment-Info-Value                </avp>
+  <avp code="461"     type="UTF8String"      >Service-Context-Id                       </avp>
+  <avp code="462"     type="OctetString"     >EAP-Payload                              </avp>
+  <avp code="463"     type="OctetString"     >EAP-Reissued-Payload                     </avp>
+  <avp code="464"     type="OctetString"     >EAP-Master-Session-Key                   </avp>
+  <avp code="465"     type="Unsigned64"      >Accounting-EAP-Auth-Method               </avp>
+  <avp code="480"     type="Unsigned32"      >Accounting-Record-Type                   </avp>
+  <avp code="482"     type="Unsigned32"      >Acct-Interim-Interval                    </avp>
+  <avp code="483"     type="Unsigned32"      >Accounting-Realtime-Required             </avp>
+  <avp code="485"     type="Unsigned32"      >Accounting-Record-Number                 </avp>
+  <avp code="1045"    type="Enumerated"  vendor_id="10415"    >Session-Release-Cause                    </avp>
+
+  <!-- vendor specific AVPs -->
+  <avp code="1001" type="Unsigned32"  vendor_id="8521">BMI-Operator-ID                 </avp>
+  <avp code="1002" type="Unsigned32"  vendor_id="8521">BMI-Content-Filtering-Rule      </avp>
+  <avp code="1003" type="Unsigned32"  vendor_id="8521">BMI-HTTP-Redirection-Rule       </avp>
+  <avp code="1004" type="Unsigned32"  vendor_id="8521">BMI-Cache-Control               </avp>
+  <avp code="1005" type="OctetString" vendor_id="8521">BMI-Redirect-URL                </avp>
+  <avp code="1006" type="Unsigned32"  vendor_id="8521">BMI-Client-Type                 </avp>
+  <avp code="1007" type="Unsigned32"  vendor_id="8521">BMI-Client-Optimization-Rule    </avp>
+  <avp code="1008" type="Unsigned32"  vendor_id="8521">BMI-Clientless-Optimization-Rule</avp>
+  <avp code="1009" type="Unsigned32"  vendor_id="8521">BMI-Video-Compression-Level     </avp>
+  <avp code="1010" type="Unsigned32"  vendor_id="8521">BMI-Roaming-Status              </avp>
+  <avp code="1011" type="Unsigned32"  vendor_id="8521">BMI-HTTP-Enrichment-Rule        </avp>
+
+  <!-- 3GPP specific AVP for policy -->
+  <avp code='1228' type='Address' vendor_id='10415'>3GPP-SGSN-Address</avp>
+  <avp code='1050' type='Address' vendor_id='10415'>AN-GW-Address</avp>
+  <avp code="1001" type="Grouped" vendor_id="10415">Charging-Rule-Install          </avp>
+  <avp code="1002"                    vendor_id="10415">Charging-Rule-Remove           </avp>
+  <avp code="1003"                    vendor_id="10415">Charging-Rule-Definition       </avp>
+  <avp code="1004" type="UTF8String"  vendor_id="10415">Charging-Rule-Base-Name        </avp>
+  <avp code="1005" type="OctetString" vendor_id="10415">Charging-Rule-Name             </avp>
+  <avp code="1010" type="Unsigned32"  vendor_id="10415">Precedence                     </avp>
+  <avp code="1066" mandatory="0"
+                   type="OctetString" vendor_id="10415">Monitoring-Key                 </avp>
+
+</avpList>
